@@ -3,6 +3,7 @@
 @section('content')
 <div class="row">
     <div class="col-md-7">            
+        <a href="{{route('descargardoctoresPDF')}}" class="btn btn-sm btn-primary">Imprimir Doctores</a>  
         <table class="table table-striped table-hover">
                 <thead class="table table-primary">
                 <tr>

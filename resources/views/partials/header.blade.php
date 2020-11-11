@@ -11,9 +11,6 @@
         <li class="active"><a href="{{route('listadopacientes')}}">Lista de Pacientes</a></li>
         <li class="active"><a href="{{route('agregarmedicamentos')}}">Medicamento</a></li>
         <li class="active"><a href="{{route('listadomedicamentos')}}">Lista de Medicamentos</a></li>
-        <li><a href="#">Cita</a></li>
-        <li><a href="#">Facturacion</a></li>
-        <li><a href="#">Acerca de</a></li>
       </ul>
     </div>
   </nav>

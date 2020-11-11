@@ -24,3 +24,6 @@ Route::post('/store2', 'PacientesController@store')->name('store2');
 Route::get('/agregarmedicamentos', 'MedicamentosController@agregarmedic')->name('agregarmedicamentos');
 Route::get('/listadomedicamentos', 'MedicamentosController@listasmedic')->name('listadomedicamentos');
 Route::post('/store3', 'MedicamentosController@store')->name('store3');
+Route::get('/pacientesdpf', 'PDFController@PDFPacientes')->name('descargarpacientesPDF');
+Route::get('/doctorespdf', 'PDFController@PDFDoctores')->name('descargardoctoresPDF');
+Route::get('/medicamentospdf', 'PDFController@PDFMedicamentos')->name('descargarmedicamentosPDF');

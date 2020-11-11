@@ -2,7 +2,8 @@
 
 @section('content')
 <div class="row">
-    <div class="col-md-7">            
+    <div class="col-md-7">     
+        <a href="{{route('descargarpacientesPDF')}}" class="btn btn-sm btn-primary">Imprimir Pacientes</a>       
         <table class="table table-striped table-hover">
                 <thead class="table table-primary">
                 <tr>
